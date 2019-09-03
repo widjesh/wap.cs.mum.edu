@@ -7,9 +7,29 @@ h1,h2 {
 }
 
 li>a{
+    text-decoration: none;
+    color : red;
+}
+
+li>a:hover{
     text-decoration: underline;
     color : red;
 }
+
 p>a{
     color: yellow;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    display: block;
+  }
+
+
+body ol dt{
+    color:yellow;
+}
+
+body ol dd{
+   font-family: 'Courier New', Courier, monospace;
 }
