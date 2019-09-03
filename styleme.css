@@ -1,0 +1,15 @@
+body{
+    background-color: #595649;
+}
+
+h1,h2 {
+    color: cornflowerblue;
+}
+
+li>a{
+    text-underline-position: below;
+    color : red;
+}
+p>a{
+    color: yellow;
+}
