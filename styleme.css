@@ -7,7 +7,7 @@ h1,h2 {
 }
 
 li>a{
-    text-underline-position: below;
+    text-decoration: underline;
     color : red;
 }
 p>a{
