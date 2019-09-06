@@ -1,0 +1,134 @@
+body{
+    margin : 0;
+    padding-top: 0;
+}
+#container{
+    margin : 0;
+    padding-top: 0;
+    background-color: #aacabd;
+    height:50px;
+}
+
+h3{
+    margin : 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    float : left;
+}
+
+h4{
+    margin : 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    float : left;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#register{
+   text-decoration: underline;
+    padding: 25px;
+}
+
+label{
+    font-weight: bold;
+    
+}
+
+#credentials{
+    padding:25px;
+}
+
+span{
+    color:red;
+    padding-right: 100px;
+}
+
+#left{
+    float:left;
+    background-color: azure;
+    width:50%;
+    height : 850px;
+    padding-bottom: 0;
+}
+#right{
+    float:right;
+    background-color: azure;
+    width:50%;
+    height :850px;
+    padding-bottom: 0;
+}
+#footer{
+    background-color: #dfdfdf;
+    padding: 40px;
+}
+
+.input{ /*For the Input Text*/
+    height : 20px;
+    width: 330px;
+}
+
+.row{
+    display: inline-block;
+    width: 140px;
+    padding-bottom: 30px;
+    padding-right: 180px;
+}
+
+.description{
+    clear:both;
+    height : 200px;
+    width: 330px;
+    margin-bottom: 15px;
+}
+
+select{
+    width: 280px;
+}
+
+#payment{
+    padding-top:-15px;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+
+.radio{
+    margin-left: 320px;
+}
+
+.radio3{
+    margin-left: 320px;
+    margin-bottom: 15px;
+}
+
+#submit{
+
+    background-color: #aacabd;
+    display: block;
+    float: right;
+    margin-top: 16px;
+    line-height: 23px;
+    padding-right: 10px;
+    text-align: center;
+    margin-right: 25px;
+    width: 125px;
+}
+
+#reset{
+    background-color: #aacabd;
+    display: block;
+    float: right;
+    margin-top: 16px;
+    line-height: 23px;
+    padding-right: 10px;
+    text-align: center;
+    width: 125px;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
