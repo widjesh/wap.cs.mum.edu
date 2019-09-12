@@ -178,6 +178,7 @@ const Professor2 = function(name, age, department) {
   this.department = department;
   Person2.call(this, name, age, department);
 };
+
 Professor2.prototype = Object.create(Person2.prototype);
 Professor2.prototype.salute2 = function() {
   console.log(

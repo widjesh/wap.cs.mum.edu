@@ -1,0 +1,15 @@
+body{
+    padding:  40px 100px  20px 100px;
+}
+
+div{
+    margin-top: 10px;
+}
+
+fieldset>input{
+    margin-top:20px;
+}
+
+.errorMsg{
+color : red;
+}

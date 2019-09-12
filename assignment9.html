@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" media="screen" href="assignment9.css" />
+    <meta charset="utf-8" />
+    <title>Assignment 8</title>
+  </head>
+  <body>
+      <form id="submit">
+          <div id="error">
+
+          </div>
+    <div>
+        <label>Name</label>
+        <input type="text" id="name" pattern="[A-Za-z]+" >
+    </div>
+    <div>
+        <label>Street</label>
+        <input type="text" id="street" required>
+    </div>
+    <div>
+        <label>State</label>
+        <select id="state" required>
+            <option value="IA">IA</option>
+            <option value="IL">IL</option>
+            <option value="NY">NY</option>
+        </select>
+    </div>
+    <div>
+        <label>Zip</label>
+        <input type="number" id="zip" required minlength="5"  maxlength="5">
+    </div>
+    <div>
+        <label>How many seats ?</label>
+        <input type="text" id="seat" required>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Which taxi do you require ?</legend>
+            <input type="radio" id="taxi" name ="taxi" value="car" required><label>Car</label><br>
+            <input type="radio" id="van" name ="taxi" value="van" required><label>Van</label><br>
+            <input type="radio" id="tuktuk" name ="taxi" value="tuktuk" required><label>Tuk Tuk</label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Extras</legend>
+            <input type="checkbox" id="baby" name ="baby" va ><label>Baby Seat</label><br>
+            <input type="checkbox" id="wheelchair" name ="wheelchair" ><label>Wheelchair Access</label><br>
+            <input type="checkbox" id="stock" name ="stock" ><label>Stock Tip</label>
+        </fieldset>
+    </div>
+    <div>
+        <label>Special instruction</label>
+        <textarea rows="5" cols="40"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Submit Booking" id="btn">
+    </div>
+</form>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="assignment9.js"></script>
+  </body>
+</html>
