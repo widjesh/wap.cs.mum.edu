@@ -37,6 +37,7 @@ $(function() {
       $("#error").append(
         $("<p>", { class: "errorMsg", text: "Seat field is required" })
       );
+      
     } else {
       let seatNumber = parseInt(seats);
       if (isNaN(seatNumber)) {
